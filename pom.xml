@@ -119,7 +119,12 @@ under the License.
 			<artifactId>flink-cep_1.3.2</artifactId>
 			<version>1.3.2</version>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-examples-streaming_2.11</artifactId>
+            <version>1.9-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 	<profiles>
 		<profile>
